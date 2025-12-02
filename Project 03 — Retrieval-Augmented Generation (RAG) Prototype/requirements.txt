@@ -1,0 +1,5 @@
+markdown
+pypdf
+chromadb
+openai
+python-dotenv
