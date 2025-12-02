@@ -1,0 +1,21 @@
+# Configuration file for the RAG prototype
+
+embedding:
+  model: text-embedding-3-small
+  max_batch_size: 64
+
+chunking:
+  max_chars: 1000
+
+retrieval:
+  top_k: 4
+
+vector_store:
+  provider: chromadb
+  collection: technical_docs_rag
+
+models:
+  chat: gpt-4.1-mini
+
+paths:
+  data_dir: ./data
