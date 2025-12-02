@@ -1,59 +1,108 @@
-# 🤖 LLM Agents
+# llm-agents — Applied GenAI, RAG & LLM Engineering Projects
 
-A repository focused on the development of AI agents using LLMs, RAG pipelines, embeddings, tools, and modern GenAI techniques.
+This repository contains practical projects focused on **Large Language Models (LLMs)**,  
+**Retrieval-Augmented Generation (RAG)**, and **AI-powered agents**, developed as part of my  
+structured learning track and portfolio-building journey in Applied GenAI.
 
-This project is part of a structured 30-day portfolio plan, aimed at building practical, real-world intelligent systems aligned with current industry standards.
+The goal of this repository is to showcase **hands-on, industry-aligned implementations**,  
+using modern LLM tooling and best practices for reasoning, retrieval, and orchestration.
 
 ---
 
-## 📁 Repository Structure  
+## 📌 Objectives of This Repository
 
-```text
+- Build a foundation in **LLM engineering**, **RAG pipelines**, and **agent systems**  
+- Demonstrate technical understanding through **clean, reproducible, well-documented notebooks**  
+- Develop end-to-end GenAI prototypes aligned with real business use-cases  
+- Maintain a professional portfolio for AI/ML internship applications  
+
+---
+
+## 📂 Projects
+
+### **Project 03 — RAG Prototype for Technical Document Retrieval**
+A full Retrieval-Augmented Generation (RAG) pipeline, including:
+
+- document loading (PDF/Markdown)
+- preprocessing and chunking
+- embeddings generation (`text-embedding-3-small`)
+- vector store using ChromaDB
+- retrieval pipeline (similarity search)
+- LLM integration (GPT-4.1 / GPT-4o-mini)
+- contextual question-answering
+- structured logs and evaluation examples
+
+**Folder:** `Project 03 — Retrieval-Augmented Generation (RAG) Prototype/`  
+**Status:** Completed  
+**Description:** Simple, clean, end-to-end RAG flow for internal technical documentation.  
+**Use-Cases:** Querying manuals, procedures, reports, and operational references.
+
+Additional projects will be added to this repository as the learning track progresses.
+
+---
+
+## 🧰 Tech Stack
+
+- **OpenAI API** (LLMs + embeddings)  
+- **ChromaDB** (vector storage)  
+- **LangChain** (loaders, splitting, retrieval utilities)  
+- **Python 3.10+**  
+- **Jupyter Notebooks**  
+- **PyPDF / Markdown Loaders**  
+
+Future projects in this repository may include:
+
+- tool-using agents  
+- routing and decision agents  
+- multi-document RAG pipelines  
+- reranking and metadata filtering  
+- evaluation frameworks for RAG  
+- simple agent architectures for business workflows  
+
+---
+
+## 🚀 Roadmap
+
+- **[✔] Project 03 — RAG Prototype (baseline, completed)**  
+- **[ ] Project 04 — Multi-document RAG with metadata filtering**  
+- **[ ] Project 05 — Agent for structured decision-making**  
+- **[ ] Project 06 — LLM tool-calling prototype**  
+- **[ ] Project 07 — RAG evaluation experiments**  
+- **[ ] Project 08 — Streamlit interface (optional)**  
+
+This roadmap evolves continuously as I progress through my GenAI engineering journey.
+
+---
+
+## 📄 Repository Structure
+
+```
 llm-agents/
-├── simple-agents/
-├── rag-pipelines/
-├── api-based-agents/
-├── domain-agents/
-└── README.md
+│
+├── Project 03 — Retrieval-Augmented Generation (RAG) Prototype/
+│   ├── README.md
+│   ├── project-03-rag-prototype.ipynb
+│   └── requirements.txt
+│
+└── notes/
+    └── (internal notes and experiments)
 ```
 
-_(Folders expand as new implementations are added.)_
+---
+
+## 👤 Author
+
+**Jairo Costa**  
+AI Student • GenAI & LLM Engineering  
+Building a professional portfolio in Machine Learning and Applied GenAI.
+
+LinkedIn: https://www.linkedin.com/in/jairo-costa-ai  
+GitHub: https://github.com/jairo-costa
 
 ---
 
-## 🎯 Learning Objectives
-- Understand the architecture of LLM-powered agents  
-- Build end-to-end RAG systems (retrieval, embeddings, LLM synthesis)
-- Implement agents capable of tool use and API orchestration  
-- Develop domain-specialized agents (logistics, automotive, productivity, etc.)  
-- Document experiments and refine multi-step reasoning techniques  
+## 📝 License
 
----
+This repository is for educational and portfolio purposes.
 
-## 🔧 Topics Covered
-- LangChain / OpenAI tools  
-- Embeddings & vector stores  
-- Retrieval-Augmented Generation (RAG)  
-- Multi-step reasoning & agent loops  
-- MLOps & LLMOps concepts  
-- Integration with real-world APIs  
-
----
-
-## 🚀 Roadmap (Ongoing)
-- [ ] Create simple instruction-following agents  
-- [ ] Build first RAG pipeline  
-- [ ] Implement API-integrated agent  
-- [ ] Experiment with tool calling  
-- [ ] Create domain-specific agents  
-- [ ] Publish a portfolio-ready demo  
-
----
-
-## ✨ About
-Maintained by **Jairo Costa**, AI student and future builder of intelligent real-world agent systems.
-
-Part of a long-term development plan focused on mastering GenAI, ML, LLMs, and applied intelligence.
-
----
 
