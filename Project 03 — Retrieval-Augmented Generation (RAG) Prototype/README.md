@@ -181,3 +181,15 @@ project-03-rag-prototype.ipynb
 ## 10. Acknowledgments
 
 This project is part of the internal learning and prototyping track for the Applied AI team at **VisionRail Analytics**, supporting research and evaluation of retrieval-enhanced LLM solut
+
+## How to run this notebook
+
+Follow the steps below to run the RAG prototype in a clean and reproducible way.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/llm-agents.git
+cd llm-agents
+
+
